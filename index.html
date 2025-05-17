@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Stationery Shop</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Stationery Shop</h1>
+    <div id="cart">
+      🛒 Cart (<span id="cart-count">0</span>)
+    </div>
+  </header>
+
+  <main class="product-list">
+
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/61gXUGK8ldL._AC_SL1500_.jpg" alt="Ballpoint Pen">
+      <h3>Ballpoint Pen (Blue)</h3>
+      <p>$1.50</p>
+      <button onclick="addToCart('Ballpoint Pen', 1.5)">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/71j8damPo5L._AC_SL1500_.jpg" alt="Notebook">
+      <h3>A4 Notebook (Spiral)</h3>
+      <p>$3.99</p>
+      <button onclick="addToCart('A4 Notebook', 3.99)">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/81oZnF2dHGL._AC_SL1500_.jpg" alt="Highlighter">
+      <h3>Highlighter Set</h3>
+      <p>$5.25</p>
+      <button onclick="addToCart('Highlighter Set', 5.25)">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/71zQXT1TV1L._AC_SL1500_.jpg" alt="Sticky Notes">
+      <h3>Sticky Notes (Color)</h3>
+      <p>$2.30</p>
+      <button onclick="addToCart('Sticky Notes', 2.30)">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/71gAAAfRj-L._AC_SL1500_.jpg" alt="Pencil Pack">
+      <h3>Pencil Pack (HB)</h3>
+      <p>$2.99</p>
+      <button onclick="addToCart('Pencil Pack', 2.99)">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/61Mo8sSRGFL._AC_SL1001_.jpg" alt="Geometry Box">
+      <h3>Geometry Box</h3>
+      <p>$6.49</p>
+      <button onclick="addToCart('Geometry Box', 6.49)">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/81zvS2L+UIL._AC_SL1500_.jpg" alt="Whiteboard Markers">
+      <h3>Whiteboard Marker Set</h3>
+      <p>$4.79</p>
+      <button onclick="addToCart('Marker Set', 4.79)">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/61d1ur9FpgL._AC_SL1000_.jpg" alt="Correction Tape">
+      <h3>Correction Tape</h3>
+      <p>$1.89</p>
+      <button onclick="addToCart('Correction Tape', 1.89)">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/51vXIRfWx0L._AC_.jpg" alt="Binder Clips">
+      <h3>Binder Clips (Set)</h3>
+      <p>$3.50</p>
+      <button onclick="addToCart('Binder Clips', 3.50)">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/71LryOUsovL._AC_SL1500_.jpg" alt="Ruler">
+      <h3>Ruler (30cm)</h3>
+      <p>$1.20</p>
+      <button onclick="addToCart('Ruler', 1.20)">Add to Cart</button>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Stationery Shop. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
